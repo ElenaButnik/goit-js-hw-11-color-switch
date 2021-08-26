@@ -1,0 +1,28 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
+
+
+  .markup {
+    position: absolute;  
+    display: grid;
+    grid-template-columns: 100px 100px;
+    gap: 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .markup button {
+      border-radius: 4px;
+      padding: 5px;
+      border-color: fuchsia;
+      background-color: rgb(170, 150, 150);
+      font-size: 25px;
+     font-style: italic;
+     color: rgb(245, 224, 224);
+  }
+  
